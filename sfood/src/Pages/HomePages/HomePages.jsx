@@ -17,9 +17,8 @@ import Footer from '../../Components/Footer/Footer'
 const HomePages = () => {
   return (
     <div className="homepage">
-      <div className="container">
      <Navbar/>   
-      </div>
+
      {/* Carusel */}
      <div id="carouselExample" className="carousel slide">
    <div className="carousel-inner">

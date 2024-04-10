@@ -2,7 +2,8 @@ import './Navbar.css'
 import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="navbar">
+<div className="navbar-wrap">
+<div className="navbar">
         <div className="container">
             <ul className="navbar-left">
                 <li className="navbar-item logo">
@@ -15,10 +16,10 @@ const Navbar = () => {
                     <Link to="/fillial" className="navbar-link">Филиалы </Link>
                 </li>
                 <li className="navbar-item">
-                    <a href="#" className="navbar-link">О нас</a>
+                    <Link to="/info" className="navbar-link">О нас</Link>
                 </li>
                 <li className="navbar-item">
-                    <a href="#" className="navbar-link">Контакты</a>
+                    <Link to="/contact" className="navbar-link">Контакты</Link>
                 </li>
             </ul>
             <div className="navbar-right">
@@ -31,6 +32,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
+</div>
   )
 }
 

@@ -4,8 +4,8 @@ import './Fillial.css'
 const Fillial = () => {
   return (
       <div className="fillial">
-        <div className="container">
         <Navbar/>
+        <div className="container">
         <div className="fillial-wrapper">
                <ul className="fillial-lists">
                     <li className="fillial-list">

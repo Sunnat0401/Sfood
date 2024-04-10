@@ -1,7 +1,14 @@
-/* .homepage{
+.homepage{
     position: relative;
-} */
+}
+.carousel {
+    padding-top: 90px;
+    position: relative;
+}
 /* card css */
+.card{
+    position: relative;
+}
 .card .container{
         display: flex;
         align-items: center;
@@ -17,6 +24,7 @@
 /* menu css */
 .menu{
     width: 100% !important;
+    position: relative;
 }
 .wrapper{
     display: flex;
@@ -65,6 +73,9 @@
 /* menu css */
 
 /* foods css  */
+.foods{
+    position: relative;
+}
 .foods .container{
     display: flex;
     flex-wrap: wrap;

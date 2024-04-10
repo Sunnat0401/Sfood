@@ -3,6 +3,8 @@
    align-items: center;
    justify-content: center;
    background-color: #f6f6f6;
+   padding-top: 180px;
+   padding-bottom: 80px;
 }
 .fillial-list{
     width: 900px;

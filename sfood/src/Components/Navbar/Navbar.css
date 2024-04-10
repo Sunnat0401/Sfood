@@ -1,8 +1,9 @@
-.navbar{
+.navbar-wrap{
+    width: 100%  ;
     background-color: white;
-    width: 100%;
     position: fixed;
-    z-index: 999;
+    z-index: 99;
+    border: 2px solid red;
 }
 .navbar .container{
     display:flex;
@@ -15,7 +16,8 @@
     display:flex;
     align-items:center;
     justify-content: space-between;
-    padding:  20px;
+    padding:  10px;
+    
 }
 .navbar-right{
     align-items: center;
