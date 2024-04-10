@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import './Footer.css'
 const Footer = () => {
   return (
@@ -6,11 +7,11 @@ const Footer = () => {
         <div className="container">
                 <div className="footer-top">
                     <ul className="footer-lists">
-                        <li className="footer-list"><a href="#" className="footer-link footer-logo">Sfood</a></li>
-                        <li className="footer-list"><a href="#" className="footer-link">Главная</a></li>
-                        <li className="footer-list"><a href="#" className="footer-link">Филиалы</a></li>
-                        <li className="footer-list"><a href="#" className="footer-link">О нас</a></li>
-                        <li className="footer-list"><a href="#" className="footer-link">Контакты</a></li>
+                        <li className="footer-list"><Link to="/" className="footer-link footer-logo">Sfood</Link></li>
+                        <li className="footer-list"><Link to="/" className="footer-link">Главная</Link></li>
+                        <li className="footer-list"><Link to="/fillial" className="footer-link">Филиалы</Link></li>
+                        <li className="footer-list"><Link to="/info" className="footer-link">О нас</Link></li>
+                        <li className="footer-list"><Link  to="/contact" className="footer-link">Контакты</Link></li>
                     </ul>
                     <div className="footer-info">
                         <h2 className="footer-subtitle">Присоединяйтесь к нам</h2>

@@ -92,6 +92,9 @@
     transition: .3s;
     width: 290px
 }
+.foods-lists:hover{
+    transform: scale(.9);
+}
 .foods-img{
     width: 230px;
     height: 180px;

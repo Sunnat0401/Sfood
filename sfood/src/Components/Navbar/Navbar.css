@@ -3,7 +3,6 @@
     background-color: white;
     position: fixed;
     z-index: 99;
-    border: 2px solid red;
 }
 .navbar .container{
     display:flex;

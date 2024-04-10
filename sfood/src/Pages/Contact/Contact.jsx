@@ -40,6 +40,14 @@ const Contact = () => {
                     </li>
                 </ul>
             </div>
+            <div className="contact-bottom">
+                <h3 className="contact-title">Правообладателям</h3>
+                <p className="contact-subtext">По вопросам, возникшим в связи с предположительным неправомерным использованием товарных знаков, логотипов и иных материалов, просим обращаться по е-мейлу с приложением подтверждающих документов</p>
+                <div className="contact-footer">
+                    <p>Электронная почта</p>
+                    <a href="mailtosunnattoxtaqulov4444@gmail.com" className="contact-">sunnattoxtaqulov4444@gmail.com</a>
+                </div>
+            </div>
         </div>
         </div>
         <Footer/>

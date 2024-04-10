@@ -27,13 +27,24 @@
     text-decoration: none;
     color: black;
 }
-.contact-middle{
+.contact-middle, .contact-bottom{
 padding: 25px;
 background-color: #fff;
+}
+.contact-bottom{
+    margin: 20px 0;
 }
  .contact-lists{
     padding: 10px 0;
  }
  .contact-texts{
     padding-top: 10px;
+ }
+ .contact-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .contact-bottom a{
+    text-decoration: none;
  }

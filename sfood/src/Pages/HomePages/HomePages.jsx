@@ -23,13 +23,13 @@ const HomePages = () => {
      <div id="carouselExample" className="carousel slide">
    <div className="carousel-inner">
      <div className="carousel-item active">
-       <img src={corusel1} className="d-block w-100" alt="..."/>
+       <img src={corusel1} className="d-block w-100" alt="text"/>
     </div>
      <div className="carousel-item">
-       <img src={corusel2} className="d-block w-100" alt="..."/>
+       <img src={corusel2} className="d-block w-100" alt="text..."/>
      </div>
     <div className="carousel-item">
-       <img src={corusel3} className="d-block w-100" alt="..."/>
+       <img src={corusel3} className="d-block w-100" alt="text..."/>
      </div>
   </div>
    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -46,10 +46,10 @@ const HomePages = () => {
    {/* Cards */}
       <div className="card">
         <div className="container">
-          <img className='card-imgs' src={corusel1} alt="" />
-          <img className='card-imgs' src={corusel2} alt="" />
-          <img className='card-imgs' src={corusel3} alt="" />
-          <img className='card-imgs' src={cardImg} alt="" />
+          <img className='card-imgs' src={corusel1} alt="text" />
+          <img className='card-imgs' src={corusel2} alt="text" />
+          <img className='card-imgs' src={corusel3} alt="text" />
+          <img className='card-imgs' src={cardImg} alt="text" />
         </div>
       </div>
       {/* Cards */}
@@ -83,7 +83,7 @@ const HomePages = () => {
   <div className="foods">
     <div className="container">
       <div className="foods-lists">
-             <img src={foods1} alt="foods" className="foods-img" />
+             <img src={foods1} alt="tfoods" className="foods-img" />
              <h4 className="foods-title">Spicy seasoned seafood noodles</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
